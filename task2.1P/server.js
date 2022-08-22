@@ -3,7 +3,7 @@ const express=require("express")
 const bodyParser = require("body-parser")
 require("dotenv").config();
 const sgMail=require("@sendgrid/mail")
-sgMail.setApiKey("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");
+sgMail.setApiKey("#############################");
 const sendMail=async(msg)=>{
     try{
         await sgMail.send(msg)
